@@ -21,6 +21,7 @@ CREATE TABLE api_config (
     json_query VARCHAR(255) NOT NULL       -- JSONPath expression to extract the desired data (e.g., "$.book.name")
 );
 
+--Then insert this--
 
 INSERT INTO api_config (api_name, base_url, path_params, query_params, desired_value, json_query)
 VALUES
