@@ -31,7 +31,7 @@ public class ApiFetchControllerTest {
 
         Response response = given()
                 .param("apiName", apiName)
-                .param("desiredValues", String.join(",", desiredValues)) // Joined desired values by comma
+                .param("desiredValues", String.join(",", desiredValues)) // Joined desired values by COMMA
                 .when()
                 .get("/api/data");
 
