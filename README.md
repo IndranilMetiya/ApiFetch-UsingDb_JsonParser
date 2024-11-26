@@ -38,4 +38,6 @@ sharing example of postman api
 --------------------
 http://localhost:8082/api/data?apiName=employeeService&desiredValues=skills,employeeName&empId=1&department=IT
 
+------END-------
+
 ______________________________________________________________________________________________________________________
